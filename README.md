@@ -1,3 +1,3 @@
-# Titre du site Web ou application
+# Exercice 1 : Signets
 
-Court texte présentant votre site Web/application.
+Simple interface fait avec React contenant plusieurs cartes affichées dynamiquement ainsi que quelques composants React MUI responsive
