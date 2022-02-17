@@ -1,0 +1,39 @@
+.Signet {
+  width: 300px;
+  color: white;
+  .contenu {
+    margin-left: 1rem;
+  }
+  div:first-of-type {
+    max-height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    img {
+      min-height: 200px;
+      max-height: 250px;
+    }
+  }
+  .MuiSvgIcon-root {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    transform: scale(150%);
+    padding: 0.2rem;
+  }
+  .MuiSvgIcon-root:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .MuiSvgIcon-root:first-child {
+    position: absolute;
+    margin: 0.8rem 0 0 0.8rem;
+  }
+  .MuiSvgIcon-root:last-child {
+    float: right;
+    margin: 0 0.8rem 0.8rem 0;
+  }
+}

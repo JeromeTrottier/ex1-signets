@@ -1,0 +1,15 @@
+.Entete {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  .utilisateur {
+    .MuiAvatar-root {
+      margin-left: 1rem;
+    }
+    display: flex;
+    align-items: center;
+  }
+}
